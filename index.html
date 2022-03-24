@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="BMI Calculate">
+    <meta name="keywords" content="BMI, weight calculator">
+    <link rel="stylesheet" href="css/style.css">
+    <title> Body Mass Calculator</title>
+</head>
+
+<body>
+    <!-- Container to hold all content -->
+    <form class="container">
+
+        <h2>BMI Calculator</h2>
+        <h5> In this program, we will calculate the user's BMI or Body Mass Index. This is a measure of body fat based
+            on the height and weight of the person.</h5>
+
+        <div class="row">
+            <!-- calling function of onInput -->
+            <input type="text" placeholder="Height" id="feet">
+            <span id="height-val">Feet</span>
+            <input type="text" placeholder="Inches" id="inches">
+            <span id="height-val">Inches</span>
+        </div>
+
+        <div class="row">
+            <!-- calling function of onInput -->
+            <input type="text" placeholder="Lbs" id="weight">
+            <span id="height-val">Weight</span>
+        </div>
+        <div class="center-button">
+            <button id="btn">Calculate</button>
+        </div>
+
+        <h1 class="display">
+            <p id="result"></p>
+        </h1>
+
+    </form>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
